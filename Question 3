@@ -1,7 +1,8 @@
 per() {
 
 chmod 700 $1
-
+echo $1
 }
 
 per $@
+chmod /$1/*
