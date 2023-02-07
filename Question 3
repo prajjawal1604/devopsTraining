@@ -5,4 +5,4 @@ echo $1
 }
 
 per $@
-chmod /$1/*
+chmod $1/*
